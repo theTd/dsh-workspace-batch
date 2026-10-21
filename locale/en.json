@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Workspace Batch",
+    "description": "Batch-remove sidebar Workspaces. Removes the registration only — folders and session logs are kept."
+  }
+}

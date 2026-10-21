@@ -3,17 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "DSH 插件：批量移除侧边栏的工作区登记（只动登记，不动目录与会话日志）。",
+  "description": "Batch-remove sidebar Workspaces in DeepSeek Harness. Removes the registration only — folders and session logs are kept.",
   "main": "index.js",
   "exports": {
     ".": "./index.js",
     "./client": "./lib/client.js",
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
   },
   "files": [
     "index.js",
     "lib",
     "cordis.patch.yml",
+    "locale/*.json",
     "README.md",
     "LICENSE"
   ],
