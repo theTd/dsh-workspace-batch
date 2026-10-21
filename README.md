@@ -43,6 +43,13 @@ cd $HOME\.dsh\profiles\web
 pnpm add -w "link:$HOME/.dsh/plugins/dsh-workspace-batch"
 ```
 
+Or straight from this repository — public, or private with a git credential helper
+such as `gh auth setup-git`:
+
+```powershell
+pnpm add -w "github:theTd/dsh-workspace-batch"
+```
+
 Then add `"dsh-workspace-batch"` to `dsh.profile.bundles` in `package.json`. With
 `patchReload: live` and `dsh-client-hmr`, the profile hands it to an already open
 page — no `dsh web` restart.
@@ -143,6 +150,13 @@ DSH 浏览器插件：把侧边栏里堆积的 Workspace 一次性批量移除�
 ```powershell
 cd $HOME\.dsh\profiles\web
 pnpm add -w "link:$HOME/.dsh/plugins/dsh-workspace-batch"
+```
+
+或者直接从仓库装（公开仓可直接用；私有仓需要 git 凭据助手，例如
+`gh auth setup-git`）：
+
+```powershell
+pnpm add -w "github:theTd/dsh-workspace-batch"
 ```
 
 再把 `"dsh-workspace-batch"` 加到 `package.json` 的 `dsh.profile.bundles` 末尾。
