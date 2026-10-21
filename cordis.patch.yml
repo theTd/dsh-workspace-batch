@@ -1,0 +1,3 @@
+- insert:
+    - id: workspace-batch
+      name: 'dsh-workspace-batch'
